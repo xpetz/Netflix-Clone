@@ -1,0 +1,208 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.main{
+    display: grid;
+    overflow: hidden;
+    font-family: sans-serif;
+    
+}
+
+
+.background-image{
+    background-image: url(./assets/background-opacity.png);
+    height: 600px;
+}
+
+nav{
+    width: 870px;
+    height: 80px;
+    display:flex;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    /* margin-top: 20px; */
+    /* margin: 0px 0px 0px -16px; */
+    padding: 20px 100px;
+    /* margin: 0px 0px -120px; */
+    
+    
+}
+
+
+/* logo of the website */
+.logo{
+    position: relative;
+    height: 40px;
+    width: 148px;
+}
+
+
+.options{
+    position: relative;
+    justify-items: right;
+    padding:3px ;
+    margin: 0px 0px 0px -12px;
+
+}
+.english{
+    color: white;
+    cursor:pointer;
+    width: 124px;
+    height: 32px;
+    font-size:1.2rem;
+    background-color: rgb(70, 67, 67);
+}
+
+.sign{
+    
+    width: 76.4px;
+    height: 35px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(229, 9, 20);
+    border-radius: 0.5rem;
+}
+
+
+/* PART 2 */
+.main-box{
+    /* margin-top: 10px; */
+    color: white;
+    text-align: center;
+    padding-left:45px ;
+    padding-top: 40px;
+}
+
+.intro{
+    /* margin: -32px 0px 0px; */
+    padding: 5px 32px 32px;
+    width: 1100px;
+    height: 592px;
+    
+}
+.main-box .intro #bold{
+    margin-top: 150px;
+    font-size: 50px;
+    margin: 0px 0px 8px;
+    font-weight: bold;
+}
+
+.email-buttons{
+    display: flex;
+    padding: 16px 0px 0px;
+    justify-self: center;
+}
+
+
+.email-buttons #email{
+    font-size: 18px;
+    width: 200px;
+    height: 20px;
+    padding: 24px 16px 8px;
+    margin-right: 10px;
+
+}
+.email-buttons #get{
+    width: 180px;
+    height: 56px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    background-color: rgb(229, 9, 20);
+    
+}
+
+
+/* Part 3  */
+.part2{
+    padding: 0px 80px;
+}
+
+
+/* TRENDING */
+.part2 .trending{
+    background-image: url(./assets/background-part2.jpeg);
+    color: white;
+    background-size: 1300px ;
+}
+
+.trending{
+    margin-bottom: 50px;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.cards-container img {
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}   
+
+/* MORE REASONS TO JOIN  */
+.cards-container2{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    margin-right: 100px;
+}
+
+.card2{
+    width: 421px;
+    height: 100px;
+    border-radius: 1rem;
+    margin-bottom: 20px;
+    padding: 24px 24px 80px;
+    background: linear-gradient(to right, #141e30, #2c003e);
+}
+
+
+
+
+/* SECTION 3: FREQUENTLY QUESTION */
+
+
+
+.faq-container {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.faq-item {
+  border: 1px solid #333;
+  margin-bottom: 10px;
+  background-color: #2c2c2c;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.faq-question h3 {
+  margin: 0;
+}
+
+
+
+.faq-answer{
+  display: none;
+  padding: 20px;
+  border-top: 1px solid #444;
+  background-color: #1e1e1e;
+}
+
+
+

@@ -1,0 +1,45 @@
+/netflix-clone
+│
+├── index.html              → Main landing page (Netflix homepage)
+├── browse.html             → Page with movie rows (after login)
+├── login.html              → Login form (optional)
+├── signup.html             → Sign-up form (optional)
+├── movie.html              → (Optional) Single movie details popup/page
+│
+├── /css
+│   └── style.css           → All styles
+│
+├── /js
+│   └── script.js           → All JavaScript logic
+│
+├── /images
+│   ├── logo.png
+│   ├── banner.jpg
+│   └── thumbnails/
+│       └── movie1.jpg
+│
+├── /videos                 → (Optional) Movie trailers
+│   └── trailer1.mp4
+│
+├── /assets                 → Fonts, icons, etc.
+│   └── NetflixSans.ttf
+│
+├── README.md               → Project description (for GitHub)
+└── .gitignore              → (optional) GitHub-related
+
+
+
+
+
+
+
+
+Start → index.html
+         ↓
+   [Login / Sign Up]
+   ↓         ↓
+login.html   signup.html
+     ↓
+browse.html
+     ↓
+(Optional) movie.html (when clicking on a movie poster)
